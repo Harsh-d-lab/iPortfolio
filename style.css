@@ -3,7 +3,6 @@
     padding:0px;
     font-family: 'Bree Serif', serif;
 }
-/* navigation bar */
 #navbar{
     display:flex;
     align-items: center;
@@ -19,11 +18,9 @@ height:100%;
 width:100%;
 z-index:-1;
 }
-/* list in nav bar */
 #navbar ul{
     display:flex;
-    list-style: none;
-    
+    list-style: none;  
 }
 #navbar ul li {
     font-size: 5rem;
@@ -34,24 +31,22 @@ z-index:-1;
     font-size: 2rem;
     padding : 1rem 3rem;
    text-decoration: none;
-   
 }
 #navbar ul li a:hover{
 color:grey;
 }
-/* logo in nav bar */
 #logo{
     margin: 1rem 3.4rem;
 }
 #logo img{
     height:6rem;
+    width: 21rem;
     margin: 0.3rem 0.6rem;
 }
-/* home section */
 .image{
     display:flex;
-    padding: 4rem 20rem;
-    height:50rem;
+    padding: 2rem 2rem;
+    height:40rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -60,9 +55,7 @@ h1{
     font-size: 5rem;
     padding:3rem;
     text-align: center; 
-
 }
-
 .image img{
     height: 25rem;
     width: 20rem;
@@ -70,7 +63,7 @@ h1{
 }
 .para{
     font-size: 4rem;
-    padding:4rem;
+    padding: 4rem;
 }
 .about{
     display:flex;
@@ -78,8 +71,8 @@ h1{
     flex-wrap: wrap;
 }
 .abouts{
-    margin:2rem;
-    font-size: 3rem;
+    margin: 2rem;
+    font-size: 2rem;
 }
 #skill{
     display:flex;
@@ -113,18 +106,15 @@ h2{
 .contact{
     position:relative;
     margin-top:4rem;
-    /* background-color: rgb(34, 32, 32); */
     height:60 rem;
 }
 .contact::before{
     content:"";
     background-color: rgb(34, 32, 32);   
-position:absolute;
-width:100%;
-height: 100%; 
-z-index:-1;
-
-
+    position:absolute;
+    width:100%;
+    height: 100%; 
+    z-index:-1;
 }
 .contact h1{
     color:white;
