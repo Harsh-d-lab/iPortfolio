@@ -23,9 +23,6 @@ z-index:-1;
     display:flex;
     list-style: none;  
 }
-#navbar ul li {
-    font-size: 5rem;
-}
 #navbar ul li a{
     display:block;
     color:white;
@@ -34,7 +31,7 @@ z-index:-1;
    text-decoration: none;
 }
 #navbar ul li a:hover{
-color:rgb(0, 0, 0);
+color:rgb(132, 42, 236);
 }
 #logo{
     margin: 1rem 3.4rem;
@@ -65,10 +62,6 @@ h1{
     width: 20rem;
     border-radius: 2rem;
 }
-.para{
-    font-size: 4rem;
-    padding: 4rem;
-}
 .about{
     display:flex;
     color: aliceblue;
@@ -78,7 +71,7 @@ h1{
 }
 .abouts{
     margin: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 #skill{
     display:flex;
@@ -98,19 +91,15 @@ h1{
     margin:auto;
 }
 .paras{
-    font-size:2rem;
+    font-size:1.5rem;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 h2{
     padding:1rem;
-    color: blanchedalmond;
+    color: rgb(255, 231, 205);
     font-size:3rem;
     text-align: center;
-}
-.text{
-    list-style: circle;
-    margin:3rem;
 }
 .contact{
     position:relative;
@@ -147,10 +136,6 @@ h2{
 }
 .message form{
     width:40%;
-}
-.news{
-    color:white;
-    margin:10rem;
 }
 button{
     color:black;
