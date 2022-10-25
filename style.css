@@ -21,6 +21,7 @@ z-index:-1;
 }
 #navbar ul{
     display:flex;
+    flex-wrap: wrap;
     list-style: none;  
 }
 #navbar ul li a{
@@ -43,6 +44,7 @@ color:rgb(132, 42, 236);
 }
 .image{
     display:flex;
+    flex-wrap: wrap;
     background-color: black;
     padding: 2rem 2rem;
     height:40rem;
