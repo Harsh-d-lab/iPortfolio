@@ -10,7 +10,7 @@
 }
 #navbar::before{
 content:"";
-background-color: rgb(34, 32, 32);   
+background-color: rgb(18, 17, 17);   
 position:absolute;
 top:0px;
 left:0px; 
@@ -33,7 +33,7 @@ z-index:-1;
    text-decoration: none;
 }
 #navbar ul li a:hover{
-color:grey;
+color:rgb(0, 0, 0);
 }
 #logo{
     margin: 1rem 3.4rem;
@@ -45,6 +45,7 @@ color:grey;
 }
 .image{
     display:flex;
+    background-color: black;
     padding: 2rem 2rem;
     height:40rem;
     justify-content: center;
@@ -53,6 +54,8 @@ color:grey;
 }
 h1{
     font-size: 5rem;
+    color: rgb(255, 253, 253);
+    background-color: black;
     padding:3rem;
     text-align: center; 
 }
@@ -67,6 +70,8 @@ h1{
 }
 .about{
     display:flex;
+    color: aliceblue;
+    background-color: black;
     flex-direction:column;
     flex-wrap: wrap;
 }
@@ -76,12 +81,13 @@ h1{
 }
 #skill{
     display:flex;
+    background-color: black;
     justify-content: center;
     align-items: center;
     margin:1rem;
 }
 #skill .box{
-   border:2px solid black;
+   border:2px solid rgb(9, 4, 4);
     margin:1rem;
     padding:1rem;
 } 
@@ -92,10 +98,12 @@ h1{
 }
 .paras{
     font-size:2rem;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 h2{
     padding:1rem;
+    color: blanchedalmond;
     font-size:3rem;
     text-align: center;
 }
@@ -105,7 +113,8 @@ h2{
 }
 .contact{
     position:relative;
-    margin-top:4rem;
+    margin-top:1rem;
+    background-color: rgb(13, 5, 5);
     height:60 rem;
 }
 .contact::before{
