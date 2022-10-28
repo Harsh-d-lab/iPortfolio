@@ -73,14 +73,14 @@ h1{
 }
 .abouts{
     margin: 2rem;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
 }
 #skill{
     display:flex;
     background-color: black;
     justify-content: center;
     align-items: center;
-    margin:1rem;
+    margin:0rem;
 }
 #skill .box{
    border:2px solid rgb(9, 4, 4);
