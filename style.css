@@ -205,7 +205,7 @@ input[type='submit']{
     width: 22rem;
 }
 }
-@media screen and (max-width:414px){
+@media screen and (max-width:450px){
 input[type='submit']{
     margin-left:42%;
     width:30%;
