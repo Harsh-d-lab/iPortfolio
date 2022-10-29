@@ -73,7 +73,7 @@ h1{
 }
 .abouts{
     margin: 2rem;
-    font-size: 2.1rem;
+    font-size: 1.6rem;
 }
 #skill{
     display:flex;
@@ -167,6 +167,10 @@ input[type='submit']{
    margin-left:35%;
    width:30%;
 }
+input[type='reset']{
+    margin-left:35%;
+    width:30%;
+ }
 @media screen and (max-width:1024px){
    #skill{
     flex-direction:column;
@@ -208,10 +212,45 @@ input[type='submit']{
 @media screen and (max-width:450px){
 input[type='submit']{
     margin-left:42%;
-    width:30%;
+    width:4rem;
+ }
+ input[type='reset']{
+    margin-left:42%;
+    width:4rem;
  }
  .image img{
-    height: 28rem;
+    height: 26rem;
     width: 18rem;
 }
 }
+@media screen and (max-width:320px){
+    .about{
+        display:flex;
+        color: aliceblue;
+        background-color: black;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    .abouts{
+        margin: 1rem;
+        font-size: 0.8rem;
+    }
+    #abouts{
+        font-size: 2rem;
+    }
+    #skills{
+        font-size: 2rem;
+    }
+    input[type='submit']{
+        margin-left:42%;
+        width:4rem;
+     }
+     input[type='reset']{
+        margin-left:42%;
+        width:4rem;
+     }
+     .image img{
+        height: 18rem;
+        width: 12rem;
+    }
+    }
