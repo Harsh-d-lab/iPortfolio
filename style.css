@@ -2,6 +2,8 @@
     margin :0px;
     padding:0px;
     font-family: 'Bree Serif', serif;
+    background-image: url(https://th.bing.com/th/id/OIP.kKX-iDzGEJRkkgGiW7sGqQHaEK?pid=ImgDet&rs=1);
+    background-repeat: repeat;
 }
 #navbar{
     display:flex;
@@ -211,10 +213,12 @@ input[type='reset']{
 }
 @media screen and (max-width:450px){
 input[type='submit']{
+    color: rgb(255, 255, 255);
     margin-left:42%;
     width:4rem;
  }
  input[type='reset']{
+    color: rgb(255, 255, 255);
     margin-left:42%;
     width:4rem;
  }
