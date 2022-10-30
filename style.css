@@ -56,7 +56,7 @@ h1{
     font-size: 5rem;
     color: rgb(255, 253, 253);
     background-color: black;
-    padding:3rem;
+    padding:2rem;
     text-align: center; 
 }
 .image img{
@@ -100,7 +100,7 @@ h1{
 h2{
     padding:1rem;
     color: rgb(255, 231, 205);
-    font-size:3rem;
+    font-size:2rem;
     text-align: center;
 }
 .contact{
@@ -158,7 +158,7 @@ button{
 }
 .copyright{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:white;
     background-color: black;
     padding:1rem;
@@ -177,7 +177,7 @@ input[type='reset']{
    }
    .image{
     flex-direction:column;
-    height:21.5rem;
+    height:22.5rem;
     padding:7rem;
    }
    .img p{
@@ -219,11 +219,11 @@ input[type='submit']{
     width:4rem;
  }
  .image img{
-    height: 26rem;
-    width: 18rem;
+    height: 24rem;
+    width: 16rem;
 }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:375px){
     .about{
         display:flex;
         color: aliceblue;
@@ -259,7 +259,7 @@ input[type='submit']{
         width:4rem;
      }
      .image img{
-        height: 18rem;
-        width: 12rem;
+        height: 16rem;
+        width: 9rem;
     }
     }
