@@ -1,7 +1,9 @@
 *{
     margin :0px;
     padding:0px;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
     background-image: url(https://th.bing.com/th/id/OIP.kKX-iDzGEJRkkgGiW7sGqQHaEK?pid=ImgDet&rs=1);
     background-repeat: repeat;
 }
@@ -213,12 +215,12 @@ input[type='reset']{
 }
 @media screen and (max-width:450px){
 input[type='submit']{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-left:42%;
     width:4rem;
  }
  input[type='reset']{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-left:42%;
     width:4rem;
  }
