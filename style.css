@@ -143,15 +143,6 @@ h2{
 .message form{
     width:40%;
 }
-button{
-    color:black;
-    margin:1rem;
-    margin-top:0;
-    margin-left:8rem;
-    text-align: center;
-    padding:1rem;
-    border-radius: 1rem;
-}
 #cont{
     display:flex;
     justify-content: center;
