@@ -33,7 +33,7 @@ z-index:-1;
     color:white;
     font-size: 2rem;
     padding : 1rem 3rem;
-   text-decoration: none;
+    text-decoration: none;
 }
 #navbar ul li a:hover{
 color:rgb(132, 42, 236);
@@ -51,10 +51,9 @@ color:rgb(132, 42, 236);
     flex-wrap: wrap;
     background-color: black;
     padding: 2rem 2rem;
-    height:40rem;
+    height:30rem;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 h1{
     font-size: 5rem;
